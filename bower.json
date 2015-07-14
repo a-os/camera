@@ -1,13 +1,9 @@
 {
   "name": "camera",
   "version": "0.0.0",
-  "homepage": "https://github.com/mozilla-b2g/gaia/tree/master/apps/camera",
-  "authors": [
-    "Wilson Page <wilsonpage@me.com>"
-  ],
+  "homepage": "https://github.com/alivedise/camera",
   "main": "index.html",
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -26,6 +22,20 @@
     "drag": "gaia-components/drag",
     "gaia-header": "gaia-components/gaia-header#~0.5.0",
     "gaia-theme": "gaia-components/gaia-theme#~0.4.1",
-    "gaia-icons": "gaia-components/gaia-icons#~0.9.0"
+    "gaia-icons": "gaia-components/gaia-icons#~0.9.0",
+    "action_menu": "git@github.com:alivedise/action_menu.git#~0.0.1",
+    "async_storage": "git@github.com:alivedise/async_storage.git#~0.0.1",
+    "blobview": "git@github.com:alivedise/blobview.git#~0.0.1",
+    "confirm": "git@github.com:alivedise/confirm.git#~0.0.1",
+    "buttons": "git@github.com:alivedise/buttons.git#~0.0.1",
+    "custom_dialog": "git@github.com:alivedise/custom_dialog.git#~0.0.1",
+    "format": "git@github.com:alivedise/format.git#~0.0.1",
+    "gesture_detector": "git@github.com:alivedise/gesture_detector.git#~0.0.1",
+    "headers": "git@github.com:alivedise/headers.git#~0.0.1",
+    "l10n_date": "git@github.com:alivedise/l10n_date.git#~0.0.1",
+    "l10n": "git@github.com:alivedise/l10n.git#~0.0.1",
+    "media": "git@github.com:alivedise/media.git#~0.0.1",
+    "progress_activity": "git@github.com:alivedise/progress_activity.git#~0.0.1",
+    "stop_recording_event": "git@github.com:alivedise/stop_recording_event.git#~0.0.1"
   }
 }

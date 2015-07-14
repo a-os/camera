@@ -18,13 +18,13 @@ requirejs.config({
     'MediaFrame': '../shared/js/media/media_frame',
     'BlobView': '../shared/js/blobview',
     'CustomDialog': '../shared/js/custom_dialog',
-    'debug': '../bower_components/debug/index',
-    'attach': '../bower_components/attach/index',
-    'model': '../bower_components/model/index',
-    'view': '../bower_components/view/index',
-    'evt': '../bower_components/evt/index',
-    'drag': '../bower_components/drag/index',
-    'device-orientation': '../bower_components/device-orientation/index',
+    'debug': '../shared/debug/index',
+    'attach': '../shared/attach/index',
+    'model': '../shared/model/index',
+    'view': '../shared/view/index',
+    'evt': '../shared/evt/index',
+    'drag': '../shared/drag/index',
+    'device-orientation': '../shared/device-orientation/index',
     'stop-recording-event': '../shared/js/stop_recording_event'
   },
 
@@ -34,17 +34,17 @@ requirejs.config({
   packages: [
     {
       name: 'gaia-header',
-      location: '../bower_components/gaia-header',
+      location: '../shared/gaia-header',
       main: 'gaia-header'
     },
     {
       name: 'gaia-icons',
-      location: '../bower_components/gaia-icons',
+      location: '../shared/gaia-icons',
       main: 'gaia-icons'
     },
     {
       name: 'gaia-component',
-      location: '../bower_components/gaia-component',
+      location: '../shared/gaia-component',
       main: 'gaia-component'
     }
   ],
